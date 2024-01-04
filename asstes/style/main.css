@@ -1,0 +1,113 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card1{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card1;
+  margin: 0px 30px;
+   
+  
+}
+ .card2{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card2;
+  margin: 0px 30px;
+  
+}
+.card3{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card3;
+  margin: 0px 30px;
+  
+}
+.card4{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card4;
+  margin: 0px 30px;
+  
+}
+.card5{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card5;
+  margin: 0px 30px;
+ margin-top: 40px;
+}
+.card6{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card6;
+  margin: 0px 30px;
+  margin-top: 20px;
+}
+.card7{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card7;
+  margin: 0px 30px;
+  margin-top: 20px;
+}
+.card8{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card8;
+  margin: 0px 30px;
+  
+} 
+.card9{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card9;
+  margin: 0px 30px;
+  
+}
+.card10{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card10;
+  margin: 0px 30px;
+  
+}
+.card11{
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card11;
+  margin: 0px 30px;
+  
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas: "card1 card2 card3 card3"
+  "card4 card5 card6 card7" 
+  "card8 card9 card10 card10";
+   
+}
+.container > div {
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
